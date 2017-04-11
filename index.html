@@ -8,6 +8,7 @@
 	  <title>Music History</title>
 	</head>
 	<body>
+	<div>
 		<h1>Music History</h1>
 		<nav class="mainNav">
 			<ul>
@@ -16,6 +17,7 @@
 				<li><a href="#">Profile</a></li>
 			</ul>
 		</nav>
+		</div>
 		<article>
 			<div class="drop">
 				<select name='select'>
@@ -25,7 +27,7 @@
 						<option value="value">The Smiths</option>
 						<option value="value1">Michael Jackson</option>
 						<option value="value2">The Eagles</option>
-						<option value="value3">AC/DC</option>
+						<option value="value3">Megadeth</option>
 						<option value="valu4">Metallica</option>
 						</div>
 						</select>
@@ -42,52 +44,55 @@
 						<option value="value1">The Queen is Dead</option>
 						<option value="value2">Bad</option>
 						<option value="value3">Desperado</option>
-						<option value="value4">Back In Black</option>
+						<option value="value4">Peace Sells...but Who's Buying?</option>
 						<option value="value4">And Justice For All</option>
 						</select>
 					</div>
 			</div>
 
 		</article>
-		<article>
-			<h2>Blackened</h2>
+		<article id="songs">
+			<h2 id="metalSong"></h2>
 				<div>
-					<ul>
-						<li>Metallica</li>
-						<li>And Justice For all</li>
-						<li>Metal</li>
+					<ul class="artists">
+						<li id="metalBand"></li>
+						<li id="metalAlbum"></li>
+						<li id='metalGenre'></li>
+					</ul>
+			</div>
+		<h2 id="megaSong"></h2>
+			<div>
+				<ul class='artists'>
+					<li id='megaBand'></li>
+					<li id="megaAlbum"></li>
+					<li id="megaGenre"></li>
+				</ul>
+		</div>
+			<h2 id= "mjSong"></h2>
+				<div id="Mj">
+					<ul class='artists'>
+						<li id="mjArtist"></li>
+						<li id= "mjAlbum"></li>
+						<li id= "mjGenre"></li>
+					</ul>
+			</div>
+			<h2 id='smithSong'></h2>
+				<div>
+					<ul class='artists'>
+						<li id="smithBand"></li>
+						<li id='smithAlbum'></li>
+						<li id='smithGenre'></li>
+					</ul>
+			</div>
+			<h2 id="eagleSong"></h2>
+				<div>
+					<ul class='artists'>
+						<li id="eagleBand"></li>
+						<li id="eagleAlbum"></li>
+						<li id="eagleGenre"></li>
 					</ul>
 			</div>
 		</article>
-		<article>
-			<h2>Man In The Mirror</h2>
-				<div>
-					<ul>
-						<li>Michael Jackson</li>
-						<li>Bad</li>
-						<li>Pop</li>
-					</ul>
-			</div>
-		</article>
-		<article>
-			<h2>A Light That Never Goes Out</h2>
-				<div>
-					<ul>
-						<li>The Smiths</li>
-						<li>The Queen Is Dead</li>
-						<li>Alternative Rock</li>
-					</ul>
-			</div>
-		</article>
-		<article>
-			<h2>Tequilla Sunrise</h2>
-				<div>
-					<ul>
-						<li>The Eagles</li>
-						<li>Desperado</li>
-						<li>Folk/Rock</li>
-					</ul>
-			</div>
-		</article>
+		<script type="text/javascript" src="songs.js"></script>
 	</body>
 </html>
