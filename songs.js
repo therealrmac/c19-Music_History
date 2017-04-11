@@ -1,15 +1,15 @@
 var songs = [];
-var metallicaSongs= [];
-var megadethSongs= [];
-var mjSongs= [];
-var eaglesSongs=[];
-/*
 songs[songs.length] = "A Light That Never Goes Out > by The Smiths on the album The Queen is Dead";
 songs[songs.length] = "Man in The Mirror > by Michael Jackson on the album Bad";
 songs[songs.length] = "Tequila Sunrise > by The Eagles on the album Desperado";
 songs[songs.length] = "Wake up Dead > by Megadeth on the album Peace Sells...but Who's Buying?";
 songs[songs.length] = "Blackened > by Metallica on the album And Justice For All";
-*/
+
+
+
+
+
+/*
 for (var i=0; i< 4; i++){
 	if(i ===0 ){
 		songs.push("A Light That Never Goes Out");
@@ -105,3 +105,4 @@ console.log(metallicaSongs);
 console.log(megadethSongs);
 console.log(mjSongs);
 console.log(eaglesSongs);
+*/
