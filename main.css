@@ -1,0 +1,40 @@
+/*.mainNav li, a{
+	display: inline;
+	float:left;
+	text-decoration: none;
+	list-style: none;
+}
+*/
+.dropButton {
+	background-color: silver;
+	padding: 5%;
+	font-size: 20px;
+	border:1px solid black;
+}
+.drop {
+	position: relative;
+	display: inline-block;
+}
+.buttonContent {
+	display: none;
+	position: absolute;
+	background-color: white;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0 .2);
+	z-index: 1;
+
+}
+.buttonContent a{
+	color: black;
+	padding: 8px 10px;
+	text-decoration: none;
+	display: block;
+	border: 1px solid black;
+}
+.drop:hover .buttonContent{
+	display: block;
+
+}
+.drop:hover .dropButton{
+	background-color: lightblue;
+}
