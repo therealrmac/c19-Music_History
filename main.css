@@ -2,54 +2,50 @@ body{
 	font-family: "Helvetica", sans-serif;
 	background-color: lightblue;
 }
+.mainNav{
+	background-color: #ffb48b;
+	padding: 10px 10px;
+}
+.mainNav li{
+	list-style: none;
+	display: inline;
+	padding: 15px 15px;
+}
 .mainNav li a{
 	display: inline;
 	text-decoration: none;
 	list-style: none;
 	padding: 20px 20px;
 }
-
-.dropButton {
-	background-color: silver;
-	padding: 5%;
-	font-size: 20px;
-	border:1px solid black;
+section{
+	display: flex;
 }
-.drop {
+#songSelector{
+	border: 2px solid;
+	background-color: #4dd7fa;
+	height: 500px;
+	max-width: 180px;
+	padding: 10px 10px;
 	position: relative;
-	display: inline-block;
+	left: 1%;
 }
 .buttonContent {
-	display: none;
-	position: absolute;
 	background-color: white;
-	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0 2);
 	z-index: 1;
-
+	max-width: 100px;
 }
-.buttonContent a{
-	color: black;
-	padding: 8px 10px;
-	text-decoration: none;
-	display: block;
-	border: 1px solid black;
-}
-.drop:hover .buttonContent{
-	display: block;
-
-}
-.drop:hover .dropButton{
-	background-color: lightblue;
-}
-#songs{
-	border: 1px solid;
+.listentomusic{
+	border: 2px solid;
 	background-color: #ffffe0;
-	max-width: 660px;
+	max-width: 100%;
+	padding: 30px 30px;
+	max-height: 100%;
+	position: relative;
+	left: 10%;
 }
-#songs, ul, li{
-	text-align: left;
-}
-.artists, li{
+.listentomusic li{
+	list-style: none;
 	display: inline;
+	padding: 10px 10px;
 }

@@ -1,11 +1,25 @@
 var songs = [];
-songs[songs.length] = "A Light That Never Goes Out > by The Smiths on the album The Queen is Dead";
-songs[songs.length] = "Man in The Mirror > by Michael Jackson on the album Bad";
-songs[songs.length] = "Tequila Sunrise > by The Eagles on the album Desperado";
-songs[songs.length] = "Wake up Dead > by Megadeth on the album Peace Sells...but Who's Buying?";
-songs[songs.length] = "Blackened > by Metallica on the album And Justice For All";
-
-
+songs[songs.length] = "A !Light That Never Goes Out > by The Smiths on the album The Queen is Dead";
+songs[songs.length] = "Man in The Mirror > by Mich@ael Jackson on the album Bad";
+songs[songs.length] = "Tequilla Sun@rise > by The Eagles on the album Desperado";
+songs[songs.length] = "Wake up Dead > by Mega!deth on the album Peace Sells...but Who's Buying?";
+songs[songs.length] = "Blackened > by Metallica on the al$bum And Justice For All";
+console.log(songs.length);
+var song1=document.getElementById('music');
+var song2=document.getElementById('music1');
+var song3=document.getElementById('music2');
+var song4=document.getElementById('music3');
+var song5=document.getElementById('music4');
+for (var i=0; i<songs.length; i++){
+	songs[i]= songs[i].replace(/[!@?$]/gi, "");
+	songs[i]= songs[i].replace(/> /gi, ' - ');
+}
+song1.innerHTML= songs[0];
+song2.innerHTML= songs[1];
+song3.innerHTML= songs[2];
+song4.innerHTML= songs[3];
+song5.innerHTML= songs[4];
+console.log(songs);
 
 
 

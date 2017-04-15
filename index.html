@@ -8,7 +8,7 @@
 	  <title>Music History</title>
 	</head>
 	<body>
-	<div>
+
 		<h1>Music History</h1>
 		<nav class="mainNav">
 			<ul>
@@ -17,11 +17,11 @@
 				<li><a href="#">Profile</a></li>
 			</ul>
 		</nav>
-		</div>
-		<article>
-			<div class="drop">
-				<select name='select'>
-				<div class="dropButton">Artist:</div>
+		<section>
+		<article  id="songSelector">
+			<div >
+				<select name='select' class="buttonContent">
+				<div>Artist:</div>
 					<div class="buttonContent">
 						<option value="artist">Artist</option>
 						<option value="value">The Smiths</option>
@@ -33,13 +33,11 @@
 						</select>
 					</div>
 			</div>
-		</article>
 		<br>
 		<br>
-		<article>
-			<div class="drop">
-				<select name="select">
-					<div class="buttonContent">
+			<div >
+				<select name="select" class="buttonContent">
+					<div >
 						<option value="value">Album</option>
 						<option value="value1">The Queen is Dead</option>
 						<option value="value2">Bad</option>
@@ -49,50 +47,40 @@
 						</select>
 					</div>
 			</div>
-
 		</article>
-		<article id="songs">
-			<h2 id="metalSong"></h2>
-				<div>
-					<ul class="artists">
-						<li id="metalBand"></li>
-						<li id="metalAlbum"></li>
-						<li id='metalGenre'></li>
-					</ul>
-			</div>
-		<h2 id="megaSong"></h2>
-			<div>
-				<ul class='artists'>
-					<li id='megaBand'></li>
-					<li id="megaAlbum"></li>
-					<li id="megaGenre"></li>
+		<article class="listentomusic">
+		<h3 id="music"></h3>
+			<ul>
+				<li class="song">Arist Name |</li>
+				<li class="song">Ablum Name |</li>
+				<li class="song">Genre |</li>
 				</ul>
-		</div>
-			<h2 id= "mjSong"></h2>
-				<div id="Mj">
-					<ul class='artists'>
-						<li id="mjArtist"></li>
-						<li id= "mjAlbum"></li>
-						<li id= "mjGenre"></li>
-					</ul>
-			</div>
-			<h2 id='smithSong'></h2>
-				<div>
-					<ul class='artists'>
-						<li id="smithBand"></li>
-						<li id='smithAlbum'></li>
-						<li id='smithGenre'></li>
-					</ul>
-			</div>
-			<h2 id="eagleSong"></h2>
-				<div>
-					<ul class='artists'>
-						<li id="eagleBand"></li>
-						<li id="eagleAlbum"></li>
-						<li id="eagleGenre"></li>
-					</ul>
-			</div>
+		<h3 id="music1"></h3>
+			<ul>
+				<li class="song">Arist Name |</li>
+				<li class="song">Ablum Name |</li>
+				<li class="song">Genre |</li>
+				</ul>
+		<h3 id="music2"></h3>
+			<ul>
+				<li class="song">Arist Name |</li>
+				<li class="song">Ablum Name |</li>
+				<li class="song">Genre |</li>
+			</ul>
+		<h3 id="music3"></h3>
+			<ul>
+				<li class="song">Arist Name |</li>
+				<li class="song">Ablum Name |</li>
+				<li class="song">Genre |</li>
+				</ul>
+		<h3 id="music4"></h3>
+			<ul>
+				<li class="song">Arist Name |</li>
+				<li class="song">Ablum Name |</li>
+				<li class="song">Genre |</li>
+			</ul>
 		</article>
+		</section>
 		<script type="text/javascript" src="songs.js"></script>
 	</body>
 </html>
